@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 import './App.css';
 import Main from './Components/ReduxComponent/Main';
 import Header from './Components/ReduxComponent/Header';
-import {createStore,} from './MakeRedux';
+import {createStore,} from './MiniRedux';
 
 
 

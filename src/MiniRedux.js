@@ -100,6 +100,8 @@ function createStore(stateChange) {
 //  renderApp(newState, state);
 //});
 
+
+
 let connect = (mapStateToProps, mapDispatchToProps) => (InnerComponent) => {
   class WrappedComponent extends React.Component {
   
@@ -132,6 +134,8 @@ let connect = (mapStateToProps, mapDispatchToProps) => (InnerComponent) => {
 
   return WrappedComponent
 };
+
+
 
 class Provider extends Component {
   constructor(props) {

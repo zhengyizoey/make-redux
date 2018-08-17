@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import {connect} from '../../MakeRedux';
+import {connect} from '../../MiniRedux';
 
 
 class Content extends Component {
